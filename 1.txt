@@ -1,0 +1,52 @@
+¿Que es arquitectura de desarrollo de software? Es un conjunto de patrones que proporcionan un marco de referencia necesario para guiar la construcción de un software,permitiendo a los programadores, analistas y todo el conjunto de desarrolladores del software compartir una misma línea de trabajo y cubrir todos los objetivos y restricciones de la aplicación.Es considerada el nivel más alto en el diseño de la arquitectura de un sistema puesto que establecen la estructura,funcionamiento e interacción entre las partes del software.
+
+Tipos:
+
+Cliente-Servidor: es un sistema distribuido entre múltiples Procesadores donde hay clientes que solicitan servicios y servidores que los proporcionan. La Tecnología Cliente/Servidor, es un modelo que implica productos y servicios enmarcados en el uso de la Tecnología de punta, y que permite la distribución de la información en forma ágil y eficaz a las diversas áreas de una organización (empresa o institución pública o privada), así como también fuera de ella.
+
+Blackboard: El patrón Blackboard es un modelo  arquitectónico de software habitualmente utilizado en sistemas expertos, multiagente y basados en el conocimiento.
+
+Modelo entre capas: La programación por capas es un modelo de desarrollo software en el que el objetivo primordial es la separación (desacoplamiento) de las partes que componen un sistema software o también una arquitectura cliente-servidor: lógica de negocios, capa de presentación y capa de datos
+
+Intérprete: Es el que realiza las operaciones que implica el programa fuente, muchas veces los interpretes se utilizan para ejecutar lenguajes de órdenes, pues cada operador que se ejecuta en un lenguaje de este tipo suele ser una invocación de una rutina, como un editor o un compilador.
+
+Orientado a servicios: La arquitectura orientada a los servicios (SOA) es un tipo de diseño de software que permite reutilizar sus elementos gracias a las interfaces de servicios que se comunican a través de una red con un lenguaje común. 
+
+Caracteristicas: La arquitectura de software forma la columna vertebral para construir un sistema de software,es en gran medida responsable de permitir o no ciertos atributos de calidad del sistema entre los que se destacan la confiabilidad y el rendimiento del software. Además es un modelo abstracto reutilizableque puede transferirse de un sistema a otro y que representa un medio de comunicación y discusión entre participantes del proyecto,permitiendo así la interacción e intercambio entre los desarrolladores con el objetivo final de establecer el intercambio de conocimientos y puntos de vista entre ellos.
+
+
+
+
+Diferencia entre Niveles y Capas en ámbito de la programación: 
+
+El término “capa” hace referencia a la forma como una solución es segmentada desde el punto de vista Lógico, mientras que el término “nivel” hace referencia a la forma en que las capas lógicas se encuentran distribuídas de forma física.
+
+ejemplos:
+1- Una solución de tres capas (presentación, lógica, datos) que reside en una sola PC (Presentación+Lógica+Datos), en esta oportunidad se dice que la arquitectura de la solución es de Tres capas y Un nivel.
+
+2- Una solución de tres capas (presentación, lógica, datos) que residen en dos PC (Presentación+Lógica, Lógica+Datos), posee una arquitectura de Tres capas y Dos niveles.
+
+3- Una solución de tres capas (presentación, lógica, datos) que reside en tres PC (Presentación, Lógica, Datos), podemos decir que la arquitectura de la solución es de Tres capas y Tres Niveles.
+
+
+¿Qué es orm? Un ORM es un modelo de programación que permite mapear las estructuras de una base de datos relacional (SQL Server, Oracle, MySQL, etc.), en adelante RDBMS (Relational Database Management System), sobre una estructura lógica de entidades con el objeto de simplificar y acelerar el desarrollo de nuestras aplicaciones.
+
+
+¿Qué es ado y ado.net?
+
+ADO es un intermediario entre el programa y la base de datos. El programa no ve la base de datos directamente, sino que hace todo el trabajo a través de ADO. Usando ADO, el programa se comunica con la base de datos, consulta, edita, inserta, borra, registros, añade tablas, etc. ADO a su vez se comunica con la base de datos a través de un "proveedor de datos".
+
+
+ADO.NET es un conjunto de componentes del software que pueden ser usados por los programadores para acceder a datos y a servicios de datos. Es una parte de la biblioteca de clases base que están incluidas en el Microsoft .NET Framework. Es comúnmente usado por los programadores para acceder y para modificar los datos almacenados en un Sistema Gestor de Bases de Datos Relacionales, aunque también puede ser usado para acceder a datos en fuentes no relacionales. ADO.NET es a veces considerado como una evolución de la tecnología ActiveX Data Objects (ADO), pero fue cambiado tan extensivamente que puede ser concebido como un producto enteramente nuevo.
+
+Caracteristicas:
+Una característica destacable de ADO.NET es el objeto DataSet que funciona de forma independiente. Está basado en XML y es un objeto que está desconectado y no tiene conciencia de cual es el origen y el destino de los datos. Es el objeto DataAdapter el que se conecta a la base de datos para llenar el objeto DataSet. Por lo tanto el objeto DataAdapter es la interfaz de conexión con los orígenes y destino de los datos, esto hace que ADO.NET sea mucho más consistente y que tenga una mayor eficacia.
+
+
+Generacion de lenguajes computarizados:
+-Los lenguajes de primera generación, o 1GL, lenguajes de bajo nivel que son lenguaje de máquina.
+-Los lenguajes de segunda generación, o 2GL, lenguajes de bajo nivel que generalmente consisten en lenguajes ensamblados.
+-Los lenguajes de tercera generación, o 3GL, lenguajes de alto nivel como C.
+-Los lenguajes de cuarta generación, o 4GL, son idiomas que consisten en declaraciones similares a las declaraciones en un lenguaje humano.
+-Los lenguajes de cuarta generación se usan comúnmente en la programación de bases de datos y scripts.
+-Los idiomas de quinta generación, o 5GL, son lenguajes de programación que contienen herramientas visuales para ayudar a desarrollar un programa. Un buen ejemplo de un lenguaje de quinta generación es Visual Basic.
